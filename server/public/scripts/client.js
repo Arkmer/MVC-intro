@@ -7,3 +7,4 @@ app.config(function($routeProvider){ // $routeProvider is magic?
         templateUrl: 'views/notHome.html' // Alternate location
     }).otherwise({redirectTo: '/'}); // Kinda like the error, but just sends you back to where you were. Nothing changes
 }); // end $routeProvider
+
